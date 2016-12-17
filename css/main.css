@@ -70,14 +70,24 @@ a:hover {
 }
 
 figcaption {
+  font-style: italic;
   text-align: center;
   font-size: 130%;
+}
+
+main {
+  text-align: center;
+
 }
 
 p {
   max-width: 100%;
   padding-left: 1em;
   text-align: center;
+}
+
+section {
+  padding-top: 1em;
 }
 
 img {
@@ -115,19 +125,21 @@ overflow: hidden;
 @media only screen and (min-width: 25em) {
 
   figcaption {
+    font-style: italic;
     font-size: 100%;
-    float: left;
+    float: none;
     padding-left: 0em;
-    padding-top: 2em
+    padding-top: 1em
   }
 
-  .wintersday {
+  section {
     float: right;
     text-align: right;
+    padding-top: 1em;
   }
 
   p {
-    float: right;
+    float: left;
   }
 
 .image-1 {
@@ -152,7 +164,7 @@ overflow: hidden;
 
 .hex-2 {
   display: block;
-  max-width: 9em;
+  max-width: 8em;
   width: 40%;
   float: left;
   padding-top: 2em;
@@ -166,7 +178,7 @@ overflow: hidden;
   border: 3px solid #595652;
   position: absolute;
 }
-
+}
 @media only screen and (min-width: 38em) {
 
   header {
@@ -216,19 +228,27 @@ overflow: hidden;
   }
 
   figcaption {
-    font-size: 130%;
+    font-style: italic;
+    margin: 0;
+    padding-top: 2em;
+    font-size: 135%;
+  }
+
+  section {
+    padding-top: 5em;
+    padding-bottom: 2em;
     float: none;
     text-align: center;
-
   }
 
-  .wintersday {
-    text-align: center;
-  }
+.description {
+  max-width: 95%;
+}
 
 .image-1 {
-  float: left;
-  padding-left: 0;
+  float: right;
+  padding-left: 0.5em;
+  margin: 0;
   width: 45%;
 
 }
@@ -241,16 +261,16 @@ overflow: hidden;
 
 .hex-1 {
   display:block;
-  max-width: 9em;
-  width: 40%;
+  max-width: 7em;
+  width: 30%;
   float: right;
   padding-top: 2em;
 }
 
 .hex-2 {
   display: block;
-  max-width: 9em;
-  width: 40%;
+  max-width: 7em;
+  width: 30%;
   float: left;
   padding-top: 2em;
 }
@@ -263,5 +283,127 @@ overflow: hidden;
   border: 3px solid #595652;
   position: absolute;
 }
+}
 
+@media only screen and (min-width: 60em) {
+
+    figcaption {
+      font-style: italic;
+      margin: 0;
+      padding-top: 2em;
+      font-size: 135%;
+    }
+
+    section {
+      padding-top: 2em;
+      float: none;
+      text-align: center;
+    }
+
+  .description {
+    max-width: 95%;
+  }
+
+  .image-1 {
+    float: right;
+    padding-left: 0.5em;
+    margin: 0;
+    width: 45%;
+
+  }
+
+  .image-2 {
+    float: left;
+    padding-left: .5em;
+    padding-top: 1em;
+    width: 33.3333%;
+  }
+
+  .hex-1 {
+    display:block;
+    max-width: 7em;
+    width: 30%;
+    float: right;
+    padding-top: 2em;
+  }
+
+  .hex-2 {
+    display: block;
+    max-width: 7em;
+    width: 30%;
+    float: left;
+    padding-top: 2em;
+  }
+
+
+  .chocolatiers {
+    background-color: #808080;
+    height: 3em;
+    width: 100%;
+    bottom: 0;
+    border: 3px solid #595652;
+    position: absolute;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+    figcaption {
+      font-style: italic;
+      margin: 0;
+      padding-top: 2em;
+      font-size: 135%;
+    }
+
+    section {
+      padding-top: 2em;
+      float: none;
+      text-align: center;
+    }
+
+  .description {
+    max-width: 95%;
+  }
+
+  .image-1 {
+    float: right;
+    padding-left: 0.5em;
+    margin: 0;
+    width: 45%;
+
+  }
+
+  .image-2 {
+    float: left;
+    padding-left: .5em;
+    padding-top: 1em;
+    width: 33.3333%;
+  }
+
+  .hex-1 {
+    display:block;
+    max-width: 7em;
+    width: 30%;
+    float: right;
+    padding-top: 2em;
+  }
+
+  .hex-2 {
+    display: block;
+    max-width: 7em;
+    width: 30%;
+    float: left;
+    padding-top: 2em;
+  }
+
+
+  .chocolatiers {
+    background-color: #808080;
+    height: 3em;
+    width: 100%;
+    bottom: 0;
+    border: 3px solid #595652;
+    position: absolute;
+  }
 }
