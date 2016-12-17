@@ -150,35 +150,35 @@ img {
     float: left;
   }
 
-.image-1 {
+  .image-1 {
     float: left;
     padding-left: .5em;
     width: 33.3333%;
-}
+  }
 
-.image-2 {
+  .image-2 {
     float: left;
     padding-left: .5em;
     width: 33.3333%;
-}
+  }
 
-.hex-1 {
+  .hex-1 {
     display:block;
     max-width: 9em;
     width: 40%;
     float: right;
     padding-top: 2em;
-}
+  }
 
-.hex-2 {
+  .hex-2 {
     display: block;
     max-width: 8em;
     width: 40%;
     float: left;
     padding-top: 2em;
-}
+  }
 
-.chocolatiers {
+  .chocolatiers {
     background-color: #808080;
     height: 3em;
     width: 100%;
@@ -190,8 +190,8 @@ img {
 @media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%;
-  line-height: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   header {
@@ -201,7 +201,7 @@ img {
     border: 3px solid #595652;
   }
 
-   h1 {
+  h1 {
     color: #fff;
     margin: 0;
     font-family: 'Cedarville Cursive', cursive;
@@ -254,48 +254,47 @@ img {
     text-align: center;
   }
 
-.description {
-  max-width: 95%;
-}
+  .description {
+    max-width: 95%;
+  }
 
-.image-1 {
-  float: right;
-  padding-left: 0.5em;
-  margin: 0;
-  width: 45%;
+  .image-1 {
+    float: right;
+    padding-left: 0.5em;
+    margin: 0;
+    width: 45%;
+  }
 
-}
+  .image-2 {
+    float: left;
+    padding-left: .5em;
+    width: 33.3333%;
+  }
 
-.image-2 {
-  float: left;
-  padding-left: .5em;
-  width: 33.3333%;
-}
+  .hex-1 {
+    display:block;
+    max-width: 7em;
+    width: 30%;
+    float: right;
+    padding-top: 2em;
+  }
 
-.hex-1 {
-  display:block;
-  max-width: 7em;
-  width: 30%;
-  float: right;
-  padding-top: 2em;
-}
+  .hex-2 {
+    display: block;
+    max-width: 7em;
+    width: 30%;
+    float: left;
+    padding-top: 2em;
+  }
 
-.hex-2 {
-  display: block;
-  max-width: 7em;
-  width: 30%;
-  float: left;
-  padding-top: 2em;
-}
-
-.chocolatiers {
-  background-color: #808080;
-  height: 3em;
-  width: 100%;
-  bottom: 0;
-  border: 3px solid #595652;
-  position: absolute;
-}
+  .chocolatiers {
+    background-color: #808080;
+    height: 3em;
+    width: 100%;
+    bottom: 0;
+    border: 3px solid #595652;
+    position: absolute;
+  }
 }
 
 @media only screen and (min-width: 60em) {
