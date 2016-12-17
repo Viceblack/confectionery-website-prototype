@@ -75,6 +75,10 @@ figcaption {
   font-size: 130%;
 }
 
+h2 {
+  text-align: center;
+}
+
 main {
   text-align: center;
 
@@ -123,6 +127,10 @@ overflow: hidden;
 }
 
 @media only screen and (min-width: 25em) {
+
+h2 {
+  float: left;
+}
 
   figcaption {
     font-style: italic;
@@ -286,6 +294,10 @@ overflow: hidden;
 }
 
 @media only screen and (min-width: 60em) {
+
+  h2 {
+    padding-top: 3em;
+  }
 
     figcaption {
       font-style: italic;
