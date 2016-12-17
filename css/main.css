@@ -117,7 +117,7 @@ img {
   overflow: hidden;
 }
 
-.chocolatiers {
+.footer {
   background-color: #808080;
   height: 3em;
   width: 100%;
@@ -178,11 +178,11 @@ img {
     padding-top: 2em;
   }
 
-  .chocolatiers {
+  .footer {
     background-color: #808080;
     height: 3em;
     width: 100%;
-    bottom: 0;
+    bottom: -5em;
     border: 3px solid #595652;
     position: absolute;
   }
@@ -287,12 +287,12 @@ img {
     padding-top: 2em;
   }
 
-  .chocolatiers {
+  .footer {
     background-color: #808080;
+    border: 3px solid #595652;
     height: 3em;
     width: 100%;
-    bottom: 0;
-    border: 3px solid #595652;
+    bottom: -15em;
     position: absolute;
   }
 }
@@ -355,12 +355,12 @@ img {
     padding-top: 2em;
   }
 
-  .chocolatiers {
+  .footer {
     background-color: #808080;
+    border: 3px solid #595652;
     height: 3em;
     width: 100%;
-    bottom: 0;
-    border: 3px solid #595652;
+    bottom: -15em;
     position: absolute;
   }
 }
@@ -420,13 +420,9 @@ img {
     padding-top: 2em;
   }
 
-
-  .chocolatiers {
-    background-color: #808080;
-    height: 3em;
-    width: 100%;
-    bottom: 0;
-    border: 3px solid #595652;
+  .footer {
+    bottom: -17em;
     position: absolute;
   }
+
 }
